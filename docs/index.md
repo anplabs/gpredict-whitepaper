@@ -12,7 +12,7 @@ hero:
       link: /whitepaper/introduction
   image:
     src: /img/cover.png
-    alt: MetaHoof
+    alt: gPredict
 
 features:
   - icon: 🧠

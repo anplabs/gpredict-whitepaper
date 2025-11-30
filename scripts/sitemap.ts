@@ -4,7 +4,7 @@ import { SitemapStream, streamToPromise } from 'sitemap';
 import { Readable } from 'stream';
 
 const inputDirectory = './dist';
-const sitemapStream = new SitemapStream({ hostname: 'https://whitepaper.metahoof.com' });
+const sitemapStream = new SitemapStream({ hostname: 'https://whitepaper.gpredict.io' });
 
 async function build() {
     const links = await fg([`${inputDirectory}/**/*.html`], {
