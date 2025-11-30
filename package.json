@@ -1,0 +1,32 @@
+{
+  "name": "@gpredict/whitepaper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vitepress dev docs",
+    "dev:ssl": "vitepress dev docs --ssl",
+    "docs:build": "vitepress build docs && npx tsx ./scripts/sitemap.ts && npx tsx ./scripts/merge-markdown.ts",
+    "docs:preview": "vitepress preview docs",
+    "verifylinks": "npx tsx ./scripts/verifyLinks.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@wharfkit/antelope": "^1.0.2",
+    "fast-glob": "^3.3.2",
+    "gray-matter": "^4.0.3",
+    "tiny-emitter": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "@vitejs/plugin-basic-ssl": "^1.0.2",
+    "markdown-it-mathjax3": "^4.3.2",
+    "sitemap": "^8.0.0",
+    "tsx": "^4.6.2",
+    "vitepress": "^1.6.3",
+    "vitepress-plugin-google-analytics": "^1.0.2",
+    "vue": "^3.3.11"
+  }
+}
