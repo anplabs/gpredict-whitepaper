@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vitepress dev docs",
     "dev:ssl": "vitepress dev docs --ssl",
-    "docs:build": "vitepress build docs && npx tsx ./scripts/sitemap.ts && npx tsx ./scripts/merge-markdown.ts",
+    "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "verifylinks": "npx tsx ./scripts/verifyLinks.ts"
   },
@@ -25,7 +25,7 @@
     "markdown-it-mathjax3": "^4.3.2",
     "sitemap": "^8.0.0",
     "tsx": "^4.6.2",
-    "vitepress": "^1.6.3",
+    "vitepress": "^1.6.4",
     "vitepress-plugin-google-analytics": "^1.0.2",
     "vue": "^3.3.11"
   }
