@@ -5,8 +5,8 @@ export default defineConfig({
   title: "gPredict | Whitepaper",
   description:
     "A Community-Driven, Somnia-Native Prediction Market by ANP Labs",
+  base: "/gpredict-whitepaper/",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     logo: "/img/logo.png",
     siteTitle: false,
 
@@ -22,8 +22,6 @@ export default defineConfig({
     search: {
       provider: "local",
     },
-
-    base: '/gpredict-whitepaper/',
 
     sidebar: {
       "/whitepaper/": [
