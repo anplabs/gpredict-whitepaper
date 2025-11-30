@@ -23,6 +23,8 @@ export default defineConfig({
       provider: "local",
     },
 
+    base: '/gpredict-whitepaper/',
+
     sidebar: {
       "/whitepaper/": [
         {
